@@ -1,4 +1,4 @@
-// test.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// test.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 //#include "stdafx.h"
@@ -29,7 +29,7 @@ void printEmptyTriangle(int n, int m){
 	for (int i=0;i<n-m;i++){
 		cout<<setw((n-i)*2)<<"*";
 		if (i>1)
-		for (int j=0;j<m-1&&j<i;j++)
+		for (int j=0;j<m-1&&j<i-1;j++)//åŸæ¥ä¸ºj<i
 			cout<<" *";
 		if (i>0){
 		cout<<setw((2*i-m+2-m)*2)<<" *";
